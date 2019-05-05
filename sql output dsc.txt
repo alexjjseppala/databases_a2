@@ -1,0 +1,32 @@
+[root@sandbox-host ~]# python spark_sql.py
+2018-11-05 19:33:01 WARN  NativeCodeLoader:62 - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+2018-11-05 19:33:03 WARN  Utils:66 - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
++------+-----+-----------------+
+|itemId|count|          average|
++------+-----+-----------------+
+|  1653|    1|              5.0|
+|  1500|    2|              5.0|
+|  1189|    2|              5.0|
+|  1122|    1|              5.0|
+|  1536|    1|              5.0|
+|   814|    1|              5.0|
+|  1599|    1|              5.0|
+|  1293|    3|              5.0|
+|  1450|    1|              5.0|
+|  1643|    1|              5.0|
+|  1467|    1|              5.0|
+|  1449|    7|4.714285714285714|
+|  1612|    3|4.666666666666667|
+|   114|   31|4.612903225806452|
+|   408|   69|4.507246376811594|
+|   973|    2|              4.5|
+|  1516|    2|              4.5|
+|   850|    2|              4.5|
+|  1466|    2|              4.5|
+|  1429|    2|              4.5|
++------+-----+-----------------+
+only showing top 20 rows
+
+Time (seconds): 37

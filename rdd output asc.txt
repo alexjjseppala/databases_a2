@@ -1,0 +1,28 @@
+[root@sandbox-host ~]# python spark_rdd.py
+2018-11-05 18:25:41 WARN  NativeCodeLoader:62 - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+2018-11-05 18:25:44 WARN  Utils:66 - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+Final Results
+Time (seconds): 25
+Movie ID  Average Rating  No. of Ratings:
+104     1.0     3
+314     1.0     4
+784     1.0     1
+788     1.0     2
+852     1.0     1
+858     1.0     1
+1290    1.0     1
+1308    1.0     1
+1332    1.0     1
+1334    1.0     2
+1342    1.0     1
+1348    1.0     1
+1358    1.0     1
+1364    1.0     1
+1366    1.0     1
+1374    1.0     1
+1390    1.0     1
+1408    1.0     2
+1432    1.0     2
+1494    1.0     1
